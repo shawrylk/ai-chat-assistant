@@ -1,0 +1,18 @@
+{
+  "name": "ai-chat-assistant",
+  "version": "0.1.0",
+  "description": "Claude Code plugin for building in-app chat assistants with Claude and tools",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "files": [
+    ".claude-plugin",
+    "skills"
+  ],
+  "scripts": {
+    "test": "node --test test/global-skills.test.mjs",
+    "spec:check": "qc check"
+  }
+}
